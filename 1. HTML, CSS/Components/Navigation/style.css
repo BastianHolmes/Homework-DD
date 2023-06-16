@@ -1,0 +1,67 @@
+@import url(../../styles/base.css);
+@import url(../../styles/variables.css);
+
+.navigation {
+  background-color: var(--primary-default);
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1.15rem 1.6rem;
+
+  font-family: inherit;
+  color:var(--secondary-default);
+  background-color:var(--primary-default);
+
+  border: 1px solid var(--secondary-default);
+  border-radius: 4px;
+}
+
+.navigation > .btn{
+  margin: 2.4rem 1.2rem;
+}
+
+.btn--active {
+  background-color: var(--secondary-default);
+  color:var(--font-primary)
+}
+
+
+.btn--profile {
+  padding: .9rem 1.6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid transparent;
+}
+
+.btn__profile-pic{
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-right: .8rem;
+  border-radius: 50%;
+}
+
+.drop-down-1{
+  width: 2.4rem;
+  height: 2.4rem;
+  fill:var(--secondary-default);
+
+  transform: scale(.7) translateY(-4px);
+}
+
+.btn:hover{
+  background-color: var(--secondary-hover);
+  color:var(--font-primary)
+}
+
+.btn--profile:hover{
+  background-color: var(--primary-default);
+  border: 1px solid var(--secondary-default);
+}

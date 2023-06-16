@@ -1,0 +1,42 @@
+@import url(../../styles/base.css);
+@import url(../../styles/variables.css);
+
+.content-field {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.content-field__bar{
+  height: calc(100% - 2 * 2.4rem);
+  width: calc(100% - 2 * 2.4rem);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid var(--border-default);
+}
+
+.content-field__description {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 1.15rem 1.6rem;
+
+  font-family: inherit;
+  color:var(--secondary-default);
+  background-color:var(--primary-default);
+
+  border: 1px solid var(--secondary-default);
+  border-radius: 4px;
+}
+
+.btn:hover{
+  background-color: var(--secondary-hover);
+  color:var(--font-primary)
+}

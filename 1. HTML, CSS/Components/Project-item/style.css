@@ -1,0 +1,61 @@
+@import url(../../styles/base.css);
+@import url(../../styles/variables.css);
+
+.project-item {
+  padding:1rem 1.6rem 0;
+  
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--border-active);
+}
+
+.project-item__content{
+  margin-right: 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-item__name{
+  height: 2.4rem;
+  margin-bottom:1.6rem;
+}
+
+.project-item__info {
+  margin-bottom: .8rem;
+  display: flex;
+}
+
+.project-item__num {
+  margin-right:.8rem;
+}
+
+.project-item__details {
+  margin: 0 auto 0 .8rem;
+  color:var(--font-disabled);
+}
+
+.project-item__changes{
+  color:var(--font-disabled);
+}
+
+.project-item__settings {
+  padding: .9rem;
+  line-height: 0;
+  
+  border: 1px solid var(--border-default);
+  border-radius: 4px;
+  display: none;
+
+  transform: translateY(-.5rem);
+}
+
+.icon-dots {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.project-item:hover .project-item__settings {
+  display: inline-block;
+}
