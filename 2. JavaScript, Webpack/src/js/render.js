@@ -12,5 +12,5 @@ app.innerHTML = `
   ${Page()}
 `
 
-document.body.appendChild(app)
+document.querySelector(".app").appendChild(app)
 

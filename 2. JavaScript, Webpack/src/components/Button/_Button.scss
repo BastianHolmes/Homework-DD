@@ -27,7 +27,7 @@
 
   &_white:hover{
     background-color:$secondary-hover;
-    border: 1px solid $border-default;
+    border: 1px solid $border-hover;
   }
 
   &_profile{
@@ -45,9 +45,12 @@
   &_active{
     background-color:$secondary-active;
     color:$font-primary;
+    border: 1px solid $border-active;
+
 
     &:hover{
       background-color:$secondary-active;
+      border: 1px solid $border-active;
       color:$font-primary;
     }
     }
