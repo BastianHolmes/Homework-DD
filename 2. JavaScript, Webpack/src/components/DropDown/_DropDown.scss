@@ -1,0 +1,57 @@
+.dropdown{
+  
+  &__item{
+    line-height: 1.9;
+    list-style: none;
+    text-align: right;
+
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    background-color: $secondary-default;
+
+
+    visibility: hidden;
+    opacity: 0;
+
+
+    max-height: 0%;
+    transition: all .8s;
+
+    &_nav{
+      top:67px;
+      right:12px;
+    }
+
+    &_change{
+      top:44px;
+      right:0px;
+    }
+  }
+
+  &_active{
+    max-height: 80px;
+    visibility: visible;
+    opacity: 1;
+
+  }
+
+  &__li{
+    text-align: center;
+    padding: 8px 16px;
+    width: 100%;
+    cursor: pointer;
+    height: 35px;
+    z-index: 10;
+
+    &:hover{
+      background-color: $secondary-hover;
+    }
+  }
+}
+
+

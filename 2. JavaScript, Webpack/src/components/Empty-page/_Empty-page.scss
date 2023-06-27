@@ -1,0 +1,27 @@
+
+.content-field {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__bar{
+    height: calc(100% - 2 * 24px);
+    width: calc(100% - 2 * 24px);
+  }
+
+  &__bar_no-list{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid $border-default;
+      border-radius: 4px;
+  }
+
+  &____description {
+    margin-bottom: 10px;
+  }
+}

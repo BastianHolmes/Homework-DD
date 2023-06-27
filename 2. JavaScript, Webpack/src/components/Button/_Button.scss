@@ -1,0 +1,56 @@
+
+.btn{
+  cursor: pointer;
+  padding: 0 16px;
+  min-height:42px;
+
+  font-family: inherit;
+  border-radius: 4px;
+  color:$secondary-default;
+  background-color:#1F75CB;
+  border: 1px solid $secondary-default;
+  
+
+  &:hover{
+    background-color:$primary-hover;
+    border: 1px solid $secondary-default;
+  }
+
+
+  &_white {
+    color:$font-primary;
+    background-color:$secondary-default;
+
+    border: 1px solid $border-default;
+    border-radius: 4px;
+  }
+
+  &_white:hover{
+    background-color:$secondary-hover;
+    border: 1px solid $border-default;
+  }
+
+  &_profile{
+    background-color:$primary-default;
+    border: 1px solid transparent;
+    color:$font-primary;
+
+  }
+
+  &_profile:hover{
+    background-color:inherit;
+    border: 1px solid $secondary-default;
+  }
+
+  &_active{
+    background-color:$secondary-active;
+    color:$font-primary;
+
+    &:hover{
+      background-color:$secondary-active;
+      color:$font-primary;
+    }
+    }
+
+  
+}
