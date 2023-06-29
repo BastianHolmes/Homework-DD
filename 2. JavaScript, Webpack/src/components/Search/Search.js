@@ -1,5 +1,5 @@
-import Image from '../Image/Image';
-import Button from '../Button/Button';
+import Image from '@/components/Image/Image';
+import Button from '@/components/Button/Button';
 
 const Search = () => {
   const html = `

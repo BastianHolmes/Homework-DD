@@ -1,4 +1,5 @@
-import Button from '../Button/Button'
+import Button from '@/components/Button/Button';
+import ProfileButton from "@/components/Button/ProfileButton";
 
 const Navigation = () => {
     const html = `
@@ -6,7 +7,7 @@ const Navigation = () => {
       ${Button('Проекты')}
       ${Button('Задачи')}
       ${Button('Пользователи')}
-      ${Button('', 'btn_profile', true)}
+      ${ProfileButton()}
     </header>
     `
   return html

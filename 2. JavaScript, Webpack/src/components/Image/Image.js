@@ -1,4 +1,4 @@
-import svg from "../../assets/img/symbol.svg"
+import svg from "@/assets/img/symbol.svg"
 
 const Image = (id, style="") => {
   const html =

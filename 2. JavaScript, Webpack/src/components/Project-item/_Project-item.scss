@@ -43,16 +43,16 @@
     color:$font-disabled;
   }
 
-  &:hover .item__settings {
-    display: inline-block;
-    z-index: 1;
-  }
-
 }
 
 .item{
   div>&_active {
     display: inline-block;
+    background-color:$secondary-active;
+    
+    &:hover{
+      background-color:$secondary-active;
+    }
   }
 
   &__settings {
@@ -68,6 +68,8 @@
 
   &:hover &__settings {
     display: inline-block;
+    
+
   }
 }
 

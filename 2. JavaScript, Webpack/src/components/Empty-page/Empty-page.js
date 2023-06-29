@@ -1,6 +1,6 @@
-import ProjectItem from "../Project-item/Project-item";
-import TaskItem from "../Task-item/Task-item";
-import Button from "../Button/Button";
+import ProjectItem from "@/components/Project-item/Project-item";
+import TaskItem from "@/components/Task-item/Task-item";
+import Button from "@/components/Button/Button";
 
 const Page = () => {
 

@@ -1,5 +1,5 @@
 
-import Image from '../Image/Image';
+import Image from '@/components/Image/Image';
 
 
 const ProjectItem = (name = 'Название', num = 1, ) => {
@@ -15,13 +15,15 @@ const ProjectItem = (name = 'Название', num = 1, ) => {
       <span class="project-item__changes">Баранов В.В. изменил 1 минуту назад</span>
     </div>
   </div>
-  <div class="item__settings dropdown">
-  ${Image("icon-dots", "icon-dots")}
-  <ul class="dropdown__item dropdown__item_change">
-    <li class="dropdown__li">Редактировать</li>
-    <li class="dropdown__li" style="color:#EE4222">Удалить</li>
-  </ul>
-  </div>
+  <div class="dropdown">
+    <div class="item__settings dropdown_btn">
+     ${Image("icon-dots", "icon-dots")}
+    </div>
+     <ul class="dropdown__item">
+      <li class="dropdown__li">Редактировать</li>
+      <li class="dropdown__li" style="color:#EE4222">Удалить</li>
+     </ul>
+    </div>
   </div>
   </div>
   `

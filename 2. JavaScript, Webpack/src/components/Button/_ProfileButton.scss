@@ -1,0 +1,52 @@
+.btn_profile{
+  cursor: pointer;
+  padding: 0 16px;
+  min-height:42px;
+
+  font-family: inherit;
+  border-radius: 4px;
+  color:$secondary-default;
+
+  background-color:$primary-default;
+  border: 1px solid transparent;
+  color:$font-primary;
+
+  &:hover{
+    border: 1px solid $secondary-default;
+  }
+
+  &_active{
+    cursor:auto;
+    background-color:$secondary-default;
+    color:$font-primary;
+
+
+    &:hover{
+      background-color:$secondary-default;
+      border: 1px solid $border-active;
+      color:$font-primary;
+    }
+    }
+
+}
+
+.drop_down_1 {
+  fill:$secondary-active;
+  
+  transform: scale(.7) translateY(-4px) rotate(0deg);
+  transition: all .4s;
+
+  &_active {
+    transition: all .4s;
+    transform: scale(.7) translate(4px, 2px) rotate(180deg); 
+    fill:$secondary-active;
+  }
+}
+
+.profile-pic {
+  pointer-events: none;
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  border-radius: 50%;
+}

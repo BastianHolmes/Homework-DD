@@ -1,7 +1,8 @@
 .dropdown{
-  
-  &__item{
-    line-height: 1.9;
+  position: relative;
+
+  &__item {
+    line-height: 35px;
     list-style: none;
     text-align: right;
 
@@ -22,33 +23,26 @@
     max-height: 0%;
     transition: all .8s;
 
-    &_nav{
-      top:67px;
-      right:12px;
-    }
-
-    &_change{
-      top:44px;
-      right:0px;
-    }
+    top:44px;
+    right:1px;
   }
 
-  &_active{
+  &_active {
     max-height: 80px;
     visibility: visible;
     opacity: 1;
 
   }
 
-  &__li{
+  &__li {
     text-align: center;
-    padding: 8px 16px;
+    padding: 0 16px;
     width: 100%;
     cursor: pointer;
     height: 35px;
     z-index: 10;
 
-    &:hover{
+    &:hover {
       background-color: $secondary-hover;
     }
   }

@@ -7,7 +7,7 @@
   font-family: inherit;
   border-radius: 4px;
   color:$secondary-default;
-  background-color:#1F75CB;
+  background-color:$primary-default;
   border: 1px solid $secondary-default;
   
 
@@ -23,37 +23,32 @@
 
     border: 1px solid $border-default;
     border-radius: 4px;
-  }
 
-  &_white:hover{
-    background-color:$secondary-hover;
-    border: 1px solid $border-hover;
-  }
-
-  &_profile{
-    background-color:$primary-default;
-    border: 1px solid transparent;
-    color:$font-primary;
-
-  }
-
-  &_profile:hover{
-    background-color:inherit;
-    border: 1px solid $secondary-default;
+    &:hover{
+      background-color:$secondary-hover;
+      border: 1px solid $border-hover;
+    }
   }
 
   &_active{
-    background-color:$secondary-active;
+    cursor:auto;
+    background-color:$secondary-default;
     color:$font-primary;
-    border: 1px solid $border-active;
 
 
     &:hover{
-      background-color:$secondary-active;
+      background-color:$secondary-default;
       border: 1px solid $border-active;
       color:$font-primary;
     }
     }
+
+  div.nav-btn > &_active{
+    cursor:auto;
+    background-color:$secondary-default;
+    fill:$secondary-active;
+    color:$font-primary;
+  }
 
   
 }

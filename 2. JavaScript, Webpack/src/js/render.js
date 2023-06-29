@@ -1,6 +1,7 @@
-import Page from "../components/Empty-page/Empty-page";
-import Search from "../components/Search/Search";
-import Navigation from "../components/Navigation/Navigation";
+import Page from "@/components/Empty-page/Empty-page";
+import Search from "@/components/Search/Search";
+import Navigation from "@/components/Navigation/Navigation";
+import DropDown from "../components/DropDown/DropDown";
 
 
 
@@ -11,6 +12,7 @@ app.innerHTML = `
   ${Search()}
   ${Page()}
 `
+DropDown()
 
 document.querySelector(".app").appendChild(app)
 

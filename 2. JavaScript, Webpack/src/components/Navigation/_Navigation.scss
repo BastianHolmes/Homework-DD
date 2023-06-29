@@ -13,25 +13,6 @@
 }
 
 
-.profile-pic {
-  pointer-events: none;
-  height: 24px;
-  width: 24px;
-  margin-right: 8px;
-  border-radius: 50%;
-}
-
-.drop_down_1 {
-  fill:$secondary-default;
-  
-  transform: scale(.7) translateY(-4px) rotate(0deg);
-  transition: all .4s;
-
-  &_active {
-    transition: all .4s;
-    transform: scale(.7) translate(4px, 2px) rotate(180deg); 
-  }
-}
 
 
 
